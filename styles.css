@@ -35,3 +35,7 @@ h1 {
 nav a {
     color: #ad974f !important;
 }
+
+.card-body footer{
+    color: #231f20;
+}
