@@ -9,7 +9,6 @@
 header .btn{
     background-color: #231f20;
     color: #ad974f;
-    height: 25%;
 }
 
 @media screen and (max-width: 768px) {
