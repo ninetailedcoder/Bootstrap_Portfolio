@@ -1,7 +1,7 @@
 .jumbotron{
     padding: 30px;
     margin: 0%;
-    background-image: linear-gradient(to right, #ad974f, #8e793e, #231f20);
+    background-image: linear-gradient(to right, #231f20, #ad974f, #8e793e);
 
 }
 
@@ -39,3 +39,88 @@ nav a {
 .card-body footer{
     color: #231f20;
 }
+
+#volunteers{
+    background-color: #231f20;
+    color: #8e793e;
+}
+
+
+#helpedRaise{
+    background-color: #8e793e;
+    color: #231f20;
+}
+
+#foodDonated {
+    background-color: #eaeaea;
+    color: #231f20;
+}
+
+#peopleServed {
+    background-color: #ad974f;
+    color: #231f20;
+}
+
+body{
+    max-width: 100%;
+
+}
+.site-footer {
+    background-color: #d7d8da;
+    max-width: 100%;
+    
+}
+
+.site-footer a {
+    color: #231f20;
+}
+
+#formula {
+    background-image: linear-gradient(to right, #eaeaea, #ad974f, #8e793e, #231f20);
+    color: #eaeaea;
+}
+
+@media screen and (max-width: 760px) {
+    #formula {
+        background-image: linear-gradient(to right, #ad974f, #8e793e, #231f20);
+    }
+    
+}
+
+#formula a{
+  color: #eaeaea;
+  background-color: #231f20;
+}
+
+
+#volunteer {
+    background-image: linear-gradient(to right, #231f20, #8e793e, #ad974f, #eaeaea);
+    color: #eaeaee;
+}
+
+@media screen and (max-width: 760px) {
+    #volunteer {
+        background-image: linear-gradient(to right, #231f20, #8e793e, #ad974f);
+
+    }
+}
+#volunteer a {
+    color: #eaeaea;
+    background-color: #231f20;
+}
+
+
+#volunteer img {
+    max-width: 100%;
+}
+
+#aboutus{
+    background-color: #231f20;
+    color: #ad974f;
+}
+
+#founder {
+    height: 50%;
+}
+
+
