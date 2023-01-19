@@ -1,0 +1,155 @@
+$color-primary: #231f20;
+$color-secondary: #ad974f;
+$color-support: #8e793e;
+$color-support2: #eaeaea;
+$color-support3: #d7d8da;
+.jumbotron{
+    padding: 30px;
+    margin: 0%;
+    background-image: linear-gradient(to right, $color-primary, $color-secondary, $color-support);
+
+}
+
+
+header {
+    .btn{
+    background-color: $color-primary;
+    color: $color-secondary;
+    }
+}
+@media screen and (max-width: 768px) {
+    header .btn {
+        justify-content: right;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    img {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+  }
+
+h1 {
+    color: $color-support;
+}
+
+.nav-link{
+    color: $color-secondary !important;
+}
+
+nav a {
+    color: $color-secondary !important;
+}
+
+.card-body {
+    footer{
+    color: $color-primary;
+    }
+}
+
+#volunteers{
+    background-color: $color-primary;
+    color: $color-support;
+}
+
+
+#helpedRaise{
+    background-color: $color-support;
+    color: $color-primary;
+}
+
+#foodDonated {
+    background-color: $color-support2;
+    color: $color-primary;
+}
+
+#peopleServed {
+    background-color: $color-secondary;
+    color: $color-primary;
+}
+
+html, body{
+    height: 100%;
+
+}
+.site-footer {
+    background-color: $color-support3;
+    max-width: 100%;
+    
+}
+
+.site-footer {
+    a {
+    color: $color-primary;
+    }
+}
+
+#formula {
+    background-image: linear-gradient(to right, $color-support2, $color-secondary, $color-support, $color-primary);
+    color: $color-support2;
+}
+
+@media screen and (max-width: 760px) {
+    #formula {
+        background-image: linear-gradient(to right, $color-secondary, $color-support, $color-primary);
+    }
+    
+}
+
+#formula {
+    a{
+  color: $color-support2;
+  background-color: $color-primary;
+    }
+}
+
+
+#volunteer {
+    background-image: linear-gradient(to right, $color-primary, $color-support, $color-secondary, $color-support2);
+    color: $color-support2;
+}
+
+@media screen and (max-width: 760px) {
+    #volunteer {
+        background-image: linear-gradient(to right, $color-primary, $color-support, $color-secondary);
+
+    }
+}
+#volunteer {
+    a {
+    color: $color-support2;
+    background-color: $color-primary;
+    }
+}
+
+
+#volunteer {
+    img {
+    max-width: 100%;
+    }
+}
+
+#aboutus{
+    background-color: $color-primary;
+    color: $color-secondary;
+}
+
+#founder {
+    height: 50%;
+}
+
+#carouselButton {
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+  
+.donationLink{
+    height: 100%;
+    min-height: 100vh;
+}
+
+
+  

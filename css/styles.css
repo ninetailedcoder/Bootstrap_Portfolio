@@ -61,8 +61,8 @@ nav a {
     color: #231f20;
 }
 
-body{
-    max-width: 100%;
+html, body{
+    height: 100%;
 
 }
 .site-footer {
@@ -123,4 +123,17 @@ body{
     height: 50%;
 }
 
+#carouselButton {
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+  
+.donationLink{
+    height: 100%;
+    min-height: 100vh;
+}
 
+
+  
