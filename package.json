@@ -4,16 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
     "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
+    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "copyfiles": "^2.2.0",
+    "imagemin": "^8.0.1",
+    "imagemin-cli": "^2.1.0",
     "lite-server": "^2.6.1",
+    "usemin-cli": "^0.0.7",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   },
@@ -23,6 +30,7 @@
     "bootstrap": "^5.2.3",
     "font": "^0.0.4",
     "fontawesome": "^5.6.3",
-    "jquery": "^3.6.3"
+    "jquery": "^3.6.3",
+    "popper.js": "^1.16.1"
   }
 }
