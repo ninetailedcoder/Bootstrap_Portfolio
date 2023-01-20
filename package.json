@@ -18,7 +18,7 @@
   "devDependencies": {
     "copyfiles": "^2.2.0",
     "imagemin": "^8.0.1",
-    "imagemin-cli": "^2.1.0",
+    "imagemin-cli": "^5.1.0",
     "lite-server": "^2.6.1",
     "usemin-cli": "^0.0.7",
     "webpack": "^5.75.0",
