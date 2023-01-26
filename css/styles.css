@@ -24,6 +24,7 @@ header .btn{
     }
   }
 
+
 h1 {
     color: #8e793e;
 }
@@ -47,12 +48,12 @@ nav a {
 
 
 #helpedRaise{
-    background-color: #8e793e;
+    background-color: #eaeaea;
     color: #231f20;
 }
 
 #foodDonated {
-    background-color: #eaeaea;
+    background-color: #8e793e;
     color: #231f20;
 }
 
@@ -132,5 +133,3 @@ nav a {
     min-height: 100vh;
 }
 
-
-  
